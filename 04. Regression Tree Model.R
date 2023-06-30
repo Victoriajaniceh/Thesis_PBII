@@ -91,10 +91,5 @@ var_imp_2 %>%
   ggtitle("Model tanpa Variabel Negara") +
   theme(plot.title = element_text(hjust = 0.5))
 
-
-#Calculate Error
-#printcp(rt_model2)
-# Explicitly request the lowest cp value
-#rt_model2$cptable[which.min(rt_model2$cptable[,"xerror"]),"CP"] #xerror : cross-validated error rate
 #-----
 
